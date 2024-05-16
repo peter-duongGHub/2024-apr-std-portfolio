@@ -52,7 +52,20 @@ header {
 
 @media screen and (min-width: 600px) {
     header {
-        
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    .name {
+        margin-bottom: 0;
+    }
+    #nav-items {
+        width: 50%;
+    }   
+    .social-media {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
