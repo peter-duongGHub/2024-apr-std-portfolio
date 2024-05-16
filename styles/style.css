@@ -50,6 +50,12 @@ header {
     text-decoration: none;
 }
 
+@media screen and (min-width: 600px) {
+    header {
+        
+    }
+}
+
 footer {
     background-color: var(--primary-color);
     text-align: center;
@@ -59,4 +65,17 @@ footer {
 .social-media {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 24px;
+}
+.social-media a i {
+    font-size: 24px;
+    color: #1c3c5c;
+}
+
+.info {
+    color: #1c3c5c;
+}
+
+.info p {
+    margin: 5px 0;
 }
